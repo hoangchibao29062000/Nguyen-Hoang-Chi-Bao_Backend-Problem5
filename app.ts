@@ -53,7 +53,7 @@ app.listen(ENV.PORT, async () => {
     await ConnectDatabase.initialize()
 
     // tạo dữ liệu mẫu
-    const activeCreateValueDefault = false;
+    const activeCreateValueDefault = true;
     if (activeCreateValueDefault) {
       // Config đây là bảng setup sever
       const configRepo = ConnectDatabase.getRepository(Config);
