@@ -1,0 +1,42 @@
+export interface IProduct {
+    id: string | number;
+    name_product: string;
+    price_input: number;
+    price_sell: number;
+    images: string;
+    id_platform: string;
+    quantity_imported: number;
+    quantity_tock: number;
+    description_product: string;
+    id_unit: string;
+    percent_profit: number;//
+    profit: number;//
+    price_list_temp: number;
+    is_sale: boolean;
+    price_sale_list: number;
+    profit_sale: number;
+    percent_sale: number;
+    is_voucher: boolean;
+    percent_voucher: number;
+    price_voucher_list: number;
+    profit_voucher: number;
+    percent_costs_platform: number;
+    costs_platform: number;
+    percent_costs_payment: number;
+    costs_payment: number;
+    percent_costs_box: number;
+    costs_box: number;
+    percent_costs_operating: number;
+    costs_operating: number;
+    percent_costs_tax: number;
+    costs_tax: number;
+    percent_costs_ads: number;
+    costs_ads: number;
+    percent_costs_affilate: number;
+    costs_affilate: number;
+    list_shipping: string;
+    total_costs: number;
+    price_listing: number;
+    createdAt: Date;
+    updatedAt: Date;
+}
